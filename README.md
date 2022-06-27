@@ -4,9 +4,10 @@ Projeto desenvolvido com o curso de Desenvolvimento Mobile com React Native da p
 
 Inicialização do projeto
 
-    1. Conectar via cabo
-    2. expo start --tunnel
-    3. Ler QRCode via Expo
+    1. npm install yarn
+    2. yarn 
+    3. npm install -g expo-cli
+    4. yarn start
 
 Instalação de fontes externas:
 
