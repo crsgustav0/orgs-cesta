@@ -6,6 +6,7 @@ import {
 } from '@expo-google-fonts/montserrat';
 
 import Cesta from './src/telas/Cesta'
+import mock from './src/mocks/cesta'
 
 export default function App() {
   const [fonteCarregada] = useFonts({
@@ -17,10 +18,11 @@ export default function App() {
     return <View></View>
   }
 
+  // <Cesta {...mock} /> Realiza o auto import a partir do objeto instanciado
   return (
     <SafeAreaView>
       <StatusBar style="auto" />
-      <Cesta />
+      <Cesta {...mock} />
     </SafeAreaView>
   );
 }
