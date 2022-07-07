@@ -7,11 +7,11 @@ import Detalhes from './Componentes/Detalhes';
 /* export - Necessário utilizar 
             para que seja possível utilizar em outros arquivos
 */
-export default function Cesta() {
+export default function Cesta({ topo, detalhes }) {
     return <>
-        <Topo />
+        <Topo {...topo} />
         <View style={estilos.cesta}>
-            <Detalhes />
+            <Detalhes {...detalhes} />
         </View>
     </>
 }
