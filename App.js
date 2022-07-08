@@ -22,7 +22,7 @@ export default function App() {
 
   // <Cesta {...mock} /> Realiza o auto import a partir do objeto instanciado
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{ flex: 1 }}>
       <StatusBar style="auto" />
       <Cesta {...mock} />
     </SafeAreaView>
